@@ -1,0 +1,8 @@
+python-dotenv
+azure-identity
+uvicorn
+mcp
+deltalake
+dotenv
+azure.ai.agents
+
