@@ -1,0 +1,9 @@
+{
+    "servers": {
+        "Inventory": {
+            "type": "stdio",
+            "command": "python",
+            "args": ["server.py"]
+        }
+    }
+}
