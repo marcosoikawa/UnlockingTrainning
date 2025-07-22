@@ -1,8 +1,11 @@
 python-dotenv
 azure-identity
-uvicorn
+azure-ai-agents
+openai
 mcp
+fastmcp
+jupyter
+ipykernel
+notebook
+uvicorn
 deltalake
-dotenv
-azure.ai.agents
-

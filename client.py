@@ -3,8 +3,7 @@ import asyncio
 import json
 from dotenv import load_dotenv
 from contextlib import AsyncExitStack
-# Add references
-# Add references
+
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
 from azure.ai.agents import AgentsClient
