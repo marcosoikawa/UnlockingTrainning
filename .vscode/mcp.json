@@ -2,7 +2,7 @@
     "servers": {
         "Inventory": {
             "type": "stdio",
-            "command": "python",
+            "command": "fastmcp run",
             "args": ["server.py"]
         }
     }

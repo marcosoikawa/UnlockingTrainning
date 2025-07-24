@@ -1,5 +1,5 @@
 import json
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 
 # Create an MCP server
 mcp = FastMCP("Inventory")
@@ -33,5 +33,16 @@ def get_weekly_sales() -> dict:
         product["ProductName"]: product.get("WeeklySales", 0)
         for product in products
     }
+
+@mcp.tool()
+def update_inventory(product_name: str, new_inventory: int) -> str:
+    """
+    Updates the inventory for a specific product.
+    """
+    for product in products:
+        if product["ProductName"] == product_name:
+            product["UnitsInStock"] = new_inventory
+            return f"Updated {product_name} inventory to {new_inventory}."
+    return f"Product {product_name} not found."
 
 mcp.run()
