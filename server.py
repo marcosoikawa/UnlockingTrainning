@@ -10,6 +10,13 @@ with open("products.json", "r") as file:
     data = json.load(file)
     products = data["value"]  # Extract the products array from the "value" field
 
+@mcp.tool()
+def get_product_info(product_name: str) -> dict:
+    """Returns detailed information about a specific product."""
+    product = next((p for p in products if p["ProductName"] == product_name), None)
+    if product:
+        return product
+    return {"error": "Product not found"}
 
 # Add an inventory check tool
 @mcp.tool()
@@ -91,10 +98,21 @@ def update_inventory(product_name: str, new_inventory: int) -> str:
     
     Returns detailed update confirmation with before/after values and recommendations.
     """
+    product_found = False
+    old_inventory = 0
+    
     for product in products:
         if product["ProductName"] == product_name:
+            product_found = True
+            old_inventory = product.get("UnitsInStock", 0)
             product["UnitsInStock"] = new_inventory
-            return f"Updated {product_name} inventory to {new_inventory}."
+            
+            # Save changes back to the JSON file
+            with open("products.json", "w") as file:
+                json.dump({"value": products}, file, indent=2)
+            
+            return f"Updated {product_name} inventory from {old_inventory} to {new_inventory} units. Changes saved to database."
+    
     return f"Product {product_name} not found."
 
 mcp.run()
