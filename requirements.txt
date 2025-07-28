@@ -1,7 +1,5 @@
 python-dotenv
 azure-identity
-azure-ai-agents
-azure.ai.projects
 openai
 mcp
 fastmcp
@@ -11,3 +9,11 @@ notebook
 uvicorn
 deltalake
 semantic_kernel
+azure-core
+dotenv
+azure-ai-projects
+azure-ai-agents===1.1.0b4
+opentelemetry-api
+opentelemetry-sdk 
+azure-monitor-opentelemetry
+typing
