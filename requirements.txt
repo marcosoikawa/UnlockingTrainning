@@ -1,6 +1,6 @@
 python-dotenv
 azure-identity
-azure-ai-agents-1.1.0b4
+azure-ai-agents
 azure.ai.projects
 openai
 mcp
@@ -10,3 +10,4 @@ ipykernel
 notebook
 uvicorn
 deltalake
+semantic_kernel
