@@ -12,8 +12,5 @@ semantic_kernel
 azure-core
 dotenv
 azure-ai-projects
-azure-ai-agents===1.1.0b4
-opentelemetry-api
-opentelemetry-sdk 
-azure-monitor-opentelemetry
+azure-ai-agents
 typing
