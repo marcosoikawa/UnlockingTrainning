@@ -7,10 +7,10 @@
       "CategoryID": 1,
       "QuantityPerUnit": "10 boxes x 20 bags",
       "UnitPrice": 18.0,
-      "UnitsInStock": 39,
-      "UnitsOnOrder": 0,
+      "UnitsInStock": 7,
+      "UnitsOnOrder": 30,
       "ReorderLevel": 10,
-      "WeeklySales": 45,
+      "WeeklySales": 38,
       "Discontinued": false
     },
     {
@@ -20,10 +20,10 @@
       "CategoryID": 1,
       "QuantityPerUnit": "24 - 12 oz bottles",
       "UnitPrice": 19.0,
-      "UnitsInStock": 0,
-      "UnitsOnOrder": 0,
-      "ReorderLevel": 25,
-      "WeeklySales": 0,
+      "UnitsInStock": 15,
+      "UnitsOnOrder": 10,
+      "ReorderLevel": 20,
+      "WeeklySales": 5,
       "Discontinued": true
     },
     {
@@ -35,7 +35,7 @@
       "UnitPrice": 10.0,
       "UnitsInStock": 13,
       "UnitsOnOrder": 70,
-      "ReorderLevel": 25,
+      "ReorderLevel": 15,
       "WeeklySales": 32,
       "Discontinued": false
     },
@@ -46,10 +46,10 @@
       "CategoryID": 2,
       "QuantityPerUnit": "48 - 6 oz jars",
       "UnitPrice": 22.0,
-      "UnitsInStock": 53,
-      "UnitsOnOrder": 0,
-      "ReorderLevel": 0,
-      "WeeklySales": 67,
+      "UnitsInStock": 5,
+      "UnitsOnOrder": 40,
+      "ReorderLevel": 10,
+      "WeeklySales": 41,
       "Discontinued": false
     },
     {
@@ -60,9 +60,9 @@
       "QuantityPerUnit": "36 boxes",
       "UnitPrice": 21.35,
       "UnitsInStock": 25,
-      "UnitsOnOrder": 0,
-      "ReorderLevel": 30,
-      "WeeklySales": 15,
+      "UnitsOnOrder": 5,
+      "ReorderLevel": 20,
+      "WeeklySales": 12,
       "Discontinued": false
     },
     {
@@ -72,10 +72,10 @@
       "CategoryID": 2,
       "QuantityPerUnit": "12 - 8 oz jars",
       "UnitPrice": 25.0,
-      "UnitsInStock": 120,
+      "UnitsInStock": 60,
       "UnitsOnOrder": 0,
       "ReorderLevel": 25,
-      "WeeklySales": 23,
+      "WeeklySales": 18,
       "Discontinued": false
     },
     {
@@ -85,10 +85,10 @@
       "CategoryID": 7,
       "QuantityPerUnit": "12 - 1 lb pkgs.",
       "UnitPrice": 30.0,
-      "UnitsInStock": 100,
-      "UnitsOnOrder": 0,
+      "UnitsInStock": 4,
+      "UnitsOnOrder": 20,
       "ReorderLevel": 10,
-      "WeeklySales": 20,
+      "WeeklySales": 35,
       "Discontinued": false
     },
     {
@@ -100,8 +100,8 @@
       "UnitPrice": 40.0,
       "UnitsInStock": 20,
       "UnitsOnOrder": 0,
-      "ReorderLevel": 0,
-      "WeeklySales": 23,
+      "ReorderLevel": 10,
+      "WeeklySales": 10,
       "Discontinued": false
     },
     {
@@ -113,8 +113,8 @@
       "UnitPrice": 97.0,
       "UnitsInStock": 29,
       "UnitsOnOrder": 0,
-      "ReorderLevel": 0,
-      "WeeklySales": 10,
+      "ReorderLevel": 10,
+      "WeeklySales": 8,
       "Discontinued": true
     },
     {
@@ -126,7 +126,7 @@
       "UnitPrice": 31.0,
       "UnitsInStock": 31,
       "UnitsOnOrder": 0,
-      "ReorderLevel": 0,
+      "ReorderLevel": 10,
       "WeeklySales": 14,
       "Discontinued": false
     },
@@ -139,7 +139,7 @@
       "UnitPrice": 21.0,
       "UnitsInStock": 22,
       "UnitsOnOrder": 30,
-      "ReorderLevel": 30,
+      "ReorderLevel": 20,
       "WeeklySales": 91,
       "Discontinued": false
     },
@@ -152,7 +152,7 @@
       "UnitPrice": 38.0,
       "UnitsInStock": 86,
       "UnitsOnOrder": 0,
-      "ReorderLevel": 0,
+      "ReorderLevel": 30,
       "WeeklySales": 62,
       "Discontinued": false
     },
@@ -178,7 +178,7 @@
       "UnitPrice": 23.25,
       "UnitsInStock": 35,
       "UnitsOnOrder": 0,
-      "ReorderLevel": 0,
+      "ReorderLevel": 10,
       "WeeklySales": 0,
       "Discontinued": false
     },
@@ -191,7 +191,7 @@
       "UnitPrice": 15.5,
       "UnitsInStock": 39,
       "UnitsOnOrder": 0,
-      "ReorderLevel": 5,
+      "ReorderLevel": 10,
       "WeeklySales": 33,
       "Discontinued": false
     },
@@ -217,7 +217,7 @@
       "UnitPrice": 39.0,
       "UnitsInStock": 0,
       "UnitsOnOrder": 0,
-      "ReorderLevel": 0,
+      "ReorderLevel": 5,
       "WeeklySales": 0,
       "Discontinued": true
     },
@@ -230,7 +230,7 @@
       "UnitPrice": 62.5,
       "UnitsInStock": 42,
       "UnitsOnOrder": 0,
-      "ReorderLevel": 0,
+      "ReorderLevel": 10,
       "WeeklySales": 20,
       "Discontinued": false
     },
@@ -243,7 +243,7 @@
       "UnitPrice": 9.2,
       "UnitsInStock": 125,
       "UnitsOnOrder": 0,
-      "ReorderLevel": 5,
+      "ReorderLevel": 20,
       "WeeklySales": 81,
       "Discontinued": false
     },
@@ -256,7 +256,7 @@
       "UnitPrice": 81.0,
       "UnitsInStock": 40,
       "UnitsOnOrder": 0,
-      "ReorderLevel": 0,
+      "ReorderLevel": 10,
       "WeeklySales": 2,
       "Discontinued": false
     },
@@ -269,8 +269,73 @@
       "UnitPrice": 6.99,
       "UnitsInStock": 65,
       "UnitsOnOrder": 0,
-      "ReorderLevel": 10,
+      "ReorderLevel": 15,
       "WeeklySales": 50,
+      "Discontinued": false
+    },
+    {
+      "ProductID": 22,
+      "ProductName": "Sunrise Matcha Latte",
+      "SupplierID": 10,
+      "CategoryID": 1,
+      "QuantityPerUnit": "20 sachets",
+      "UnitPrice": 15.5,
+      "UnitsInStock": 8,
+      "UnitsOnOrder": 25,
+      "ReorderLevel": 10,
+      "WeeklySales": 34,
+      "Discontinued": false
+    },
+    {
+      "ProductID": 23,
+      "ProductName": "Crimson Quinoa Crunch",
+      "SupplierID": 11,
+      "CategoryID": 3,
+      "QuantityPerUnit": "12 - 500g bags",
+      "UnitPrice": 12.0,
+      "UnitsInStock": 50,
+      "UnitsOnOrder": 0,
+      "ReorderLevel": 15,
+      "WeeklySales": 20,
+      "Discontinued": false
+    },
+    {
+      "ProductID": 24,
+      "ProductName": "Azure Blueberry Jam",
+      "SupplierID": 12,
+      "CategoryID": 2,
+      "QuantityPerUnit": "6 - 300g jars",
+      "UnitPrice": 8.75,
+      "UnitsInStock": 3,
+      "UnitsOnOrder": 40,
+      "ReorderLevel": 10,
+      "WeeklySales": 36,
+      "Discontinued": false
+    },
+    {
+      "ProductID": 25,
+      "ProductName": "Golden Turmeric Elixir",
+      "SupplierID": 13,
+      "CategoryID": 1,
+      "QuantityPerUnit": "24 bottles",
+      "UnitPrice": 22.0,
+      "UnitsInStock": 60,
+      "UnitsOnOrder": 10,
+      "ReorderLevel": 20,
+      "WeeklySales": 18,
+      "Discontinued": false
+    },
+    {
+      "ProductID": 26,
+      "ProductName": "Emerald Vegan Cheese",
+      "SupplierID": 14,
+      "CategoryID": 4,
+      "QuantityPerUnit": "10 - 200g blocks",
+      "UnitPrice": 16.0,
+      "UnitsInStock": 20,
+      "UnitsOnOrder": 5,
+      "ReorderLevel": 10,
+      "WeeklySales": 25,
       "Discontinued": false
     }
   ]
